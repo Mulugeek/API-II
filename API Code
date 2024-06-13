@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://plugin.powerschool.pearson.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
+        name="mcs"
+        version="2.1.0"
+        description="ClassLink">
+ <oauth></oauth>
+ 
+ <access_request>
+ <field table="SectionTeacher" field="id" access="ViewOnly" />
+ <field table="SectionTeacher" field="sectionid" access="ViewOnly" />
+ <field table="SectionTeacher" field="teacherid" access="ViewOnly" />
+ <field table="SectionTeacher" field="roleid" access="ViewOnly" />
+ <field table="SectionTeacher" field="start_date" access="ViewOnly" />
+ <field table="SectionTeacher" field="end_date" access="ViewOnly" />
+ <field table="Sections" field="dcid" access="ViewOnly" />
+ <field table="Sections" field="id" access="ViewOnly" />
+ <field table="SchoolStaff" field="dcid" access="ViewOnly" />
+ <field table="SchoolStaff" field="id" access="ViewOnly" />
+ <field table="SchoolStaff" field="users_dcid" access="ViewOnly" />
+ <field table="Guardian" field="AccountIdentifier" access="ViewOnly" />
+ <field table="Guardian" field="Email" access="ViewOnly" />
+ <field table="Guardian" field="FirstName" access="ViewOnly" />
+ <field table="Guardian" field="GuardianID" access="ViewOnly" />
+ <field table="Guardian" field="LastName" access="ViewOnly" />
+ <field table="Guardian" field="MiddleName" access="ViewOnly" />
+ <field table="Guardian" field="PSGUID" access="ViewOnly" />
+ <field table="Guardian" field="state_guardiannumber" access="ViewOnly" />
+ <field table="GuardianNotificationEmail" field="GuardianNotificationEmailID" access="ViewOnly" />
+ <field table="GuardianNotificationEmail" field="GuardianStudentID" access="ViewOnly" />
+ <field table="GuardianNotificationEmail" field="NotificationEmail" access="ViewOnly" />
+ <field table="GuardianPersonAssoc" field="GuardianID" access="ViewOnly" />
+ <field table="GuardianPersonAssoc" field="GuardianPersonAssocID" access="ViewOnly" />
+ <field table="GuardianPersonAssoc" field="PersonID" access="ViewOnly" />
+ <field table="GuardianRelationshipType" field="DisplayOrder" access="ViewOnly" />
+ <field table="GuardianRelationshipType" field="GuardianRelationshiptypeID" access="ViewOnly" />
+ <field table="GuardianRelationshipType" field="SIFRelationToStudent" access="ViewOnly" />
+ <field table="Guardians" field="Alias" access="ViewOnly" />
+ <field table="Guardians" field="AllowWebAccess" access="ViewOnly" />
+ <field table="Guardians" field="Classification" access="ViewOnly" />
+ <field table="Guardians" field="Day_Phone" access="ViewOnly" />
+ <field table="Guardians" field="DCID" access="ViewOnly" />
+ <field table="Guardians" field="Email" access="ViewOnly" />
+ <field table="Guardians" field="Evening_Phone" access="ViewOnly" />
+ <field table="Guardians" field="FamilyID" access="ViewOnly" />
+ <field table="Guardians" field="Fax" access="ViewOnly" />
+ <field table="Guardians" field="First_Name" access="ViewOnly" />
+ <field table="Guardians" field="ID" access="ViewOnly" />
+ <field table="Guardians" field="Last_Name" access="ViewOnly" />
+ <field table="Guardians" field="LastFirst" access="ViewOnly" />
+ <field table="Guardians" field="Middle_Name" access="ViewOnly" />
+ <field table="Guardians" field="Relationship" access="ViewOnly" />
+ <field table="Guardians" field="rolevalue" access="ViewOnly" />
+ <field table="Guardians" field="Status" access="ViewOnly" />
+ <field table="Guardians" field="StudentID" access="ViewOnly" />
+ <field table="Guardians" field="Tier" access="ViewOnly" />
+ <field table="Guardians" field="Web_ID" access="ViewOnly" />
+ <field table="Guardians" field="WebEmail" access="ViewOnly" />
+ <field table="Guardians" field="WebMailPassword" access="ViewOnly" />
+ <field table="Guardians" field="WebPassword" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_AttendanceDetail" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_BalanceAlert" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_GradeDetail" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_HowOften" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_SchoolAnnouncements" access="ViewOnly" />
+ <field table="GuardianStudent" field="AutoSend_Summary" access="ViewOnly" />
+ <field table="GuardianStudent" field="GuardianID" access="ViewOnly" />
+ <field table="GuardianStudent" field="GuardianRelationshipTypeID" access="ViewOnly" />
+ <field table="GuardianStudent" field="GuardianStudentID" access="ViewOnly" />
+ <field table="GuardianStudent" field="StudentsDCID" access="ViewOnly" />
+ <field table="StudentContactAssoc" field="ContactPriorityOrder" access="ViewOnly" />
+ <field table="StudentContactAssoc" field="CurrRelTypeCodeSetID" access="ViewOnly" />
+ <field table="StudentContactAssoc" field="PersonID" access="ViewOnly" />
+ <field table="StudentContactAssoc" field="StudentContactAssocID" access="ViewOnly" />
+ <field table="StudentContactAssoc" field="StudentDCID" access="ViewOnly" />
+ <field table="StudentContactDetail" field="IsActive" access="ViewOnly" />
+ <field table="StudentContactDetail" field="IsCustodial" access="ViewOnly" />
+ <field table="StudentContactDetail" field="IsEmergency" access="ViewOnly" />
+ <field table="StudentContactDetail" field="LivesWithFlg" access="ViewOnly" />
+ <field table="StudentContactDetail" field="ReceivesMailFlg" access="ViewOnly" />
+ <field table="StudentContactDetail" field="RelationshipTypeCodeSetID" access="ViewOnly" />
+ <field table="StudentContactDetail" field="SchoolPickupFlg" access="ViewOnly" />
+ <field table="StudentContactDetail" field="StudentContactAssocID" access="ViewOnly" />
+ <field table="StudentContactDetail" field="StudentContactDetailID" access="ViewOnly" />
+ <field table="StudentContactDetail" field="RelationshipNote" access="ViewOnly" />
+ </access_request>
+ 
+ 
+  <publisher name="mcs">
+    <contact email="ms@myschool.org" />
+  </publisher>
+ 
+</plugin
